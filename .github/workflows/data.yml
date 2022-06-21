@@ -34,17 +34,17 @@ jobs:
       run: ls
     - name: Refresh token & store it
       run: |
-        $data = ${{ github.workspace }}\_statlink\finalbuild-windows-latest\OpenSpartan.StatLink.exe refresh --client-id ${{ secrets.SL_CLIENT_ID }} --client-secret ${{ secrets.SL_CLIENT_SECRET }} --redirect-url https://localhost --refresh-token ${{ secrets.SL_REFRESH_TOKEN }} | ConvertFrom-Json
-        $keyData = curl -H @{"Accept" = "application/vnd.github.v3+json"; "Authorization" = "token ${{ secrets.SL_GITHUB_TOKEN }}"} https://api.github.com/repos/dend/openspartan-data-snapshots/actions/secrets/public-key | ConvertFrom-Json
+        $data = ${{ github.workspace }}\_statlink\finalbuild-windows-latest\OpenSpartan.StatLink.exe refresh --client-id $env:SL_CLIENT_ID --client-secret $env:SL_CLIENT_SECRET --redirect-url https://localhost --refresh-token $env:SL_REFRESH_TOKEN | ConvertFrom-Json
+        $keyData = curl -H @{"Accept" = "application/vnd.github.v3+json"; "Authorization" = "token $env:SL_GITHUB_TOKEN"} https://api.github.com/repos/dend/openspartan-data-snapshots/actions/secrets/public-key | ConvertFrom-Json
         foreach ($info in $keyData.PSObject.Properties) { Write-Output $info.Name }
         Write-Output "Got key data."
         $encryptedRefreshToken = ${{ github.workspace }}\_statlink\finalbuild-windows-latest\OpenSpartan.StatLink.exe prepsecret --secret $data.RefreshToken --public-key $keyData.key
         $encryptedAccessToken = ${{ github.workspace }}\_statlink\finalbuild-windows-latest\OpenSpartan.StatLink.exe prepsecret --secret $data.AccessToken --public-key $keyData.key
-        curl -X PUT -H @{"Accept" = "application/vnd.github.v3+json"; "Authorization" = "token ${{ secrets.SL_GITHUB_TOKEN }}"} https://api.github.com/repos/dend/openspartan-data-snapshots/actions/secrets/SL_REFRESH_TOKEN -d '{"encrypted_value":"${encryptedRefreshToken}","key_id":"${keyData.key_id}"}'
-        curl -X PUT -H @{"Accept" = "application/vnd.github.v3+json"; "Authorization" = "token ${{ secrets.SL_GITHUB_TOKEN }}"} https://api.github.com/repos/dend/openspartan-data-snapshots/actions/secrets/SL_ACCESS_TOKEN -d '{"encrypted_value":"${encryptedAccessToken}","key_id":"${keyData.key_id}"}'
+        curl -X PUT -H @{"Accept" = "application/vnd.github.v3+json"; "Authorization" = "token $env:SL_GITHUB_TOKEN"} https://api.github.com/repos/dend/openspartan-data-snapshots/actions/secrets/SL_REFRESH_TOKEN -d '{"encrypted_value":"$encryptedRefreshToken","key_id":"$($keyData.key_id)"}'
+        curl -X PUT -H @{"Accept" = "application/vnd.github.v3+json"; "Authorization" = "token $env:SL_GITHUB_TOKEN"} https://api.github.com/repos/dend/openspartan-data-snapshots/actions/secrets/SL_ACCESS_TOKEN -d '{"encrypted_value":"$encryptedAccessToken","key_id":"$($keyData.key_id)"}'
     - name: Get data
       run: |
-        ${{ github.workspace }}\_statlink\finalbuild-windows-latest\OpenSpartan.StatLink.exe getstats --auth-token ${{ secrets.SL_ACCESS_TOKEN }} --build-id ${{ secrets.SL_BUILD_ID }} --project-id ${{ secrets.SL_PROJECT_ID }} --out data.json
+        ${{ github.workspace }}\_statlink\finalbuild-windows-latest\OpenSpartan.StatLink.exe getstats --auth-token $env:SL_ACCESS_TOKEN --build-id $env:SL_BUILD_ID --project-id $env:SL_PROJECT_ID --out data.json
     - name: Commit changes
       run: |
         git add -A -v
