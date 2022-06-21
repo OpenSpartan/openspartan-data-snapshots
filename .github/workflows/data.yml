@@ -1,0 +1,52 @@
+name: "Acquire Data"
+
+on:
+  pull_request:
+    paths-ignore:
+      - '**/*.md'
+      - '**/*.gitignore'
+      - '**/*.gitattributes'
+  push:
+    paths-ignore:
+      - '**/*.md'
+      - '**/*.gitignore'
+      - '**/*.gitattributes'
+  workflow_dispatch:
+    paths-ignore:
+      - '**/*.md'
+      - '**/*.gitignore'
+      - '**/*.gitattributes'
+      
+jobs:
+  build:
+    environment: Production
+    strategy:
+    runs-on: windows-latest
+    if: (github.event_name == 'pull_request' || github.event_name == 'push') && contains(toJson(github.event.commits), '***NO_CI***') == false && contains(toJson(github.event.commits), '[ci skip]') == false && contains(toJson(github.event.commits), '[skip ci]') == false
+    name: Build
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Download StatLink
+      run: Invoke-WebRequest https://github.com/dend/openspartan-statlink/releases/download/v0.0.8/ossl-windows-latest.zip -OutFile ossl-windows-latest.zip
+    - name: Extract StatLink
+      run: Expand-Archive -Path ossl-windows-latest.zip -DestinationPath _statlink
+    - name: List content in the current folder
+      run: ls
+    - name: Refresh token & store it
+      run: |
+        $data = ${{ github.workspace }}\_statlink\finalbuild-windows-latest\OpenSpartan.StatLink.exe refresh --client-id ${{ secrets.SL_CLIENT_ID }} --client-secret ${{ secrets.SL_CLIENT_SECRET }} --redirect-url https://localhost --refresh-token ${{ secrets.SL_REFRESH_TOKEN }} | Convert-ToJson
+        $encryptedRefreshToken = ${{ github.workspace }}\_statlink\finalbuild-windows-latest\OpenSpartan.StatLink.exe prepsecret --secret $data.RefreshToken --public-key ${{ secrets.SL_PUBLIC_KEY }}
+        $encryptedAccessToken = ${{ github.workspace }}\_statlink\finalbuild-windows-latest\OpenSpartan.StatLink.exe prepsecret --secret $data.AccessToken --public-key ${{ secrets.SL_PUBLIC_KEY }}
+        curl -X PUT -H "Accept: application/vnd.github.v3+json" -H "Authorization: token ${{ secrets.SL_GITHUB_TOKEN }}" https://api.github.com/repos/dend/openspartan-data-snapshots/actions/secrets/SL_REFRESH_TOKEN -d '{"encrypted_value":"${encrypted}","key_id":"${{ secrets.SL_PUBLIC_KEY_ID }}"}'
+        curl -X PUT -H "Accept: application/vnd.github.v3+json" -H "Authorization: token ${{ secrets.SL_GITHUB_TOKEN }}" https://api.github.com/repos/dend/openspartan-data-snapshots/actions/secrets/SL_ACCESS_TOKEN -d '{"encrypted_value":"${encrypted}","key_id":"${{ secrets.SL_PUBLIC_KEY_ID }}"}'
+    - name: Get data
+      run: |
+        ${{ github.workspace }}\_statlink\finalbuild-windows-latest\OpenSpartan.StatLink.exe getstats --auth-token ${{ secrets.SL_ACCESS_TOKEN }} --build-id ${{ secrets.SL_BUILD_ID }} --project-id ${{ secrets.SL_PROJECT_ID }} --out data.json
+    - name: Commit changes
+      run: |
+        git add -A -v
+        git config --global user.name 'Den Delimarsky'
+        git config --global user.email '1389609+dend@users.noreply.github.com'
+        git commit -m "Updating snapshot with data."
+        git push origin main
