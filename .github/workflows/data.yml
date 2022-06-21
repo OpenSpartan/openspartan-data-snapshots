@@ -20,7 +20,6 @@ on:
 jobs:
   build:
     environment: Production
-    strategy:
     runs-on: windows-latest
     if: (github.event_name == 'pull_request' || github.event_name == 'push') && contains(toJson(github.event.commits), '***NO_CI***') == false && contains(toJson(github.event.commits), '[ci skip]') == false && contains(toJson(github.event.commits), '[skip ci]') == false
     name: Build
