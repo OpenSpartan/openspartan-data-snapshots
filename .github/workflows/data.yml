@@ -41,6 +41,7 @@ jobs:
       run: ls
     - name: Refresh token & store it
       run: |
+        Write-Output $env:SL_PROJECT_ID
         $secretsContext = ($env:SECRETS_CONTEXT | ConvertFrom-Json -AsHashtable)
         Write-Output $secretsContext
         $data = ${{ github.workspace }}\_statlink\finalbuild-windows-latest\OpenSpartan.StatLink.exe refresh --client-id $env:SL_CLIENT_ID --client-secret $env:SL_CLIENT_SECRET --redirect-url https://localhost --refresh-token $env:SL_REFRESH_TOKEN | ConvertFrom-Json
