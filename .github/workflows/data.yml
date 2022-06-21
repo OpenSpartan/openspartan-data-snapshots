@@ -34,13 +34,15 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Download StatLink
-      run: Invoke-WebRequest https://github.com/dend/openspartan-statlink/releases/download/v0.0.8/ossl-windows-latest.zip -OutFile ossl-windows-latest.zip
+      run: Invoke-WebRequest https://github.com/dend/openspartan-statlink/releases/download/v0.0.9/ossl-windows-latest.zip -OutFile ossl-windows-latest.zip
     - name: Extract StatLink
       run: Expand-Archive -Path ossl-windows-latest.zip -DestinationPath _statlink
     - name: List content in the current folder
       run: ls
     - name: Refresh token & store it
       run: |
+        $secretsContext = ($env:SECRETS_CONTEXT | ConvertFrom-Json -AsHashtable)
+        Write-Output $secretsContext
         $data = ${{ github.workspace }}\_statlink\finalbuild-windows-latest\OpenSpartan.StatLink.exe refresh --client-id $env:SL_CLIENT_ID --client-secret $env:SL_CLIENT_SECRET --redirect-url https://localhost --refresh-token $env:SL_REFRESH_TOKEN | ConvertFrom-Json
         $keyData = curl -H @{"Accept" = "application/vnd.github.v3+json"; "Authorization" = "token $env:SL_GITHUB_TOKEN"} https://api.github.com/repos/dend/openspartan-data-snapshots/actions/secrets/public-key | ConvertFrom-Json
         foreach ($info in $keyData.PSObject.Properties) { Write-Output $info.Name }
@@ -51,7 +53,7 @@ jobs:
         curl -X PUT -H @{"Accept" = "application/vnd.github.v3+json"; "Authorization" = "token $env:SL_GITHUB_TOKEN"} https://api.github.com/repos/dend/openspartan-data-snapshots/actions/secrets/SL_ACCESS_TOKEN -d '{"encrypted_value":"$encryptedAccessToken","key_id":"$($keyData.key_id)"}'
     - name: Get data
       run: |
-        ${{ github.workspace }}\_statlink\finalbuild-windows-latest\OpenSpartan.StatLink.exe getstats --auth-token $env:SL_ACCESS_TOKEN --build-id $env:SL_BUILD_ID --project-id $env:SL_PROJECT_ID --out data.json
+        ${{ github.workspace }}\_statlink\finalbuild-windows-latest\OpenSpartan.StatLink.exe getstats --auth-token $env:SL_ACCESS_TOKEN --build-id $env:SL_BUILD_ID --project-id $env:SL_PROJECT_ID --out data
     - name: Commit changes
       run: |
         git add -A -v
