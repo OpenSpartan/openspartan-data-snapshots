@@ -23,6 +23,13 @@ jobs:
     runs-on: windows-latest
     if: (github.event_name == 'pull_request' || github.event_name == 'push') && contains(toJson(github.event.commits), '***NO_CI***') == false && contains(toJson(github.event.commits), '[ci skip]') == false && contains(toJson(github.event.commits), '[skip ci]') == false
     name: Build
+    env:
+      SL_CLIENT_ID: ${{ secrets.SL_CLIENT_ID }}
+      SL_CLIENT_SECRET: ${{ secrets.SL_CLIENT_SECRET }}
+      SL_REFRESH_TOKEN: ${{ secrets.SL_REFRESH_TOKEN }}
+      SL_GITHUB_TOKEN: ${{ secrets.SL_GITHUB_TOKEN }}
+      SL_BUILD_ID: ${{ secrets.SL_BUILD_ID }}
+      SL_PROJECT_ID: ${{ secrets.SL_PROJECT_ID }}
 
     steps:
     - uses: actions/checkout@v2
