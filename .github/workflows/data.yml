@@ -43,7 +43,6 @@ jobs:
       run: |
         $data = . ${{ github.workspace }}\_statlink\finalbuild-windows-latest\OpenSpartan.StatLink.exe refresh --client-id ${Env:SL_CLIENT_ID} --client-secret ${Env:SL_CLIENT_SECRET} --redirect-url https://localhost --refresh-token ${Env:SL_REFRESH_TOKEN} | ConvertFrom-Json
         $keyData = curl -H @{"Accept" = "application/vnd.github.v3+json"; "Authorization" = "token ${Env:SL_GITHUB_TOKEN}"} https://api.github.com/repos/dend/openspartan-data-snapshots/actions/secrets/public-key | ConvertFrom-Json
-        Write-Output $keyData
         foreach ($info in $keyData.PSObject.Properties) { Write-Output $info.Name }
         Write-Output "Got key data."
         $encryptedRefreshToken = ${{ github.workspace }}\_statlink\finalbuild-windows-latest\OpenSpartan.StatLink.exe prepsecret --secret $data.RefreshToken --public-key $keyData.key
