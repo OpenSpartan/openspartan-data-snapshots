@@ -1,1 +1,7 @@
-{"Name":"Ranked:Oddball","Version":"29f36248-0181-44ba-96a0-3c3b9b924085","HeroImageUrl":"https://blobs-infiniteugc.svc.halowaypoint.com/ugcstorage/ugcgamevariant/751bcc9d-aace-45a1-8d71-358f0bc89f7e/29f36248-0181-44ba-96a0-3c3b9b924085/images/hero.png","ThumbnailImageUrl":"https://blobs-infiniteugc.svc.halowaypoint.com/ugcstorage/ugcgamevariant/751bcc9d-aace-45a1-8d71-358f0bc89f7e/29f36248-0181-44ba-96a0-3c3b9b924085/images/thumbnail.png","Description":"BR loadouts, Friendly-Fire enabled, Motion Tracker disabled. Hold the flaming skull."}
+{
+  "Name": "Ranked:Oddball",
+  "Version": "29f36248-0181-44ba-96a0-3c3b9b924085",
+  "HeroImageUrl": "https://blobs-infiniteugc.svc.halowaypoint.com/ugcstorage/ugcgamevariant/751bcc9d-aace-45a1-8d71-358f0bc89f7e/29f36248-0181-44ba-96a0-3c3b9b924085/images/hero.png",
+  "ThumbnailImageUrl": "https://blobs-infiniteugc.svc.halowaypoint.com/ugcstorage/ugcgamevariant/751bcc9d-aace-45a1-8d71-358f0bc89f7e/29f36248-0181-44ba-96a0-3c3b9b924085/images/thumbnail.png",
+  "Description": "BR loadouts, Friendly-Fire enabled, Motion Tracker disabled. Hold the flaming skull."
+}

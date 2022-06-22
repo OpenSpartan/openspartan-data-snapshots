@@ -1,1 +1,7 @@
-{"Name":"Behemoth","Version":"1d62423c-39ad-4029-9db2-aab60ef664f1","HeroImageUrl":"https://blobs-infiniteugc.svc.halowaypoint.com/ugcstorage/map/53136ad9-0fd6-4271-8752-31d114b9561e/1d62423c-39ad-4029-9db2-aab60ef664f1/images/hero.png","ThumbnailImageUrl":"https://blobs-infiniteugc.svc.halowaypoint.com/ugcstorage/map/53136ad9-0fd6-4271-8752-31d114b9561e/1d62423c-39ad-4029-9db2-aab60ef664f1/images/thumbnail.png","Description":"Buried for millennia, this ancient structure rises from beneath the sands."}
+{
+  "Name": "Behemoth",
+  "Version": "1d62423c-39ad-4029-9db2-aab60ef664f1",
+  "HeroImageUrl": "https://blobs-infiniteugc.svc.halowaypoint.com/ugcstorage/map/53136ad9-0fd6-4271-8752-31d114b9561e/1d62423c-39ad-4029-9db2-aab60ef664f1/images/hero.png",
+  "ThumbnailImageUrl": "https://blobs-infiniteugc.svc.halowaypoint.com/ugcstorage/map/53136ad9-0fd6-4271-8752-31d114b9561e/1d62423c-39ad-4029-9db2-aab60ef664f1/images/thumbnail.png",
+  "Description": "Buried for millennia, this ancient structure rises from beneath the sands."
+}

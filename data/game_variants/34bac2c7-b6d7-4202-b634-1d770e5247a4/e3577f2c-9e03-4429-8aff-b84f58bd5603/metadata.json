@@ -1,1 +1,7 @@
-{"Name":"BTB:Total Control","Version":"e3577f2c-9e03-4429-8aff-b84f58bd5603","HeroImageUrl":"https://blobs-infiniteugc.svc.halowaypoint.com/ugcstorage/ugcgamevariant/34bac2c7-b6d7-4202-b634-1d770e5247a4/e3577f2c-9e03-4429-8aff-b84f58bd5603/images/hero.png","ThumbnailImageUrl":"https://blobs-infiniteugc.svc.halowaypoint.com/ugcstorage/ugcgamevariant/34bac2c7-b6d7-4202-b634-1d770e5247a4/e3577f2c-9e03-4429-8aff-b84f58bd5603/images/thumbnail.png","Description":"Control all three zones simultaneously to score."}
+{
+  "Name": "BTB:Total Control",
+  "Version": "e3577f2c-9e03-4429-8aff-b84f58bd5603",
+  "HeroImageUrl": "https://blobs-infiniteugc.svc.halowaypoint.com/ugcstorage/ugcgamevariant/34bac2c7-b6d7-4202-b634-1d770e5247a4/e3577f2c-9e03-4429-8aff-b84f58bd5603/images/hero.png",
+  "ThumbnailImageUrl": "https://blobs-infiniteugc.svc.halowaypoint.com/ugcstorage/ugcgamevariant/34bac2c7-b6d7-4202-b634-1d770e5247a4/e3577f2c-9e03-4429-8aff-b84f58bd5603/images/thumbnail.png",
+  "Description": "Control all three zones simultaneously to score."
+}

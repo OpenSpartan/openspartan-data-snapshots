@@ -1,1 +1,7 @@
-{"Name":"Breaker","Version":"8de64c4f-4fbd-4ed8-a26c-793c5dc53c4d","HeroImageUrl":"https://blobs-infiniteugc.svc.halowaypoint.com/ugcstorage/map/e6cbfe01-665b-4a8c-bf3a-d63a65a7c890/8de64c4f-4fbd-4ed8-a26c-793c5dc53c4d/images/hero.png","ThumbnailImageUrl":"https://blobs-infiniteugc.svc.halowaypoint.com/ugcstorage/map/e6cbfe01-665b-4a8c-bf3a-d63a65a7c890/8de64c4f-4fbd-4ed8-a26c-793c5dc53c4d/images/thumbnail.png","Description":"Plasma Beam. 6500 Terawatts, 25000 degrees Centigrade."}
+{
+  "Name": "Breaker",
+  "Version": "8de64c4f-4fbd-4ed8-a26c-793c5dc53c4d",
+  "HeroImageUrl": "https://blobs-infiniteugc.svc.halowaypoint.com/ugcstorage/map/e6cbfe01-665b-4a8c-bf3a-d63a65a7c890/8de64c4f-4fbd-4ed8-a26c-793c5dc53c4d/images/hero.png",
+  "ThumbnailImageUrl": "https://blobs-infiniteugc.svc.halowaypoint.com/ugcstorage/map/e6cbfe01-665b-4a8c-bf3a-d63a65a7c890/8de64c4f-4fbd-4ed8-a26c-793c5dc53c4d/images/thumbnail.png",
+  "Description": "Plasma Beam. 6500 Terawatts, 25000 degrees Centigrade."
+}

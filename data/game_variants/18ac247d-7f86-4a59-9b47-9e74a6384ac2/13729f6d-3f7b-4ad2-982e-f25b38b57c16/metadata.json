@@ -1,1 +1,7 @@
-{"Name":"Ranked:One Flag CTF","Version":"13729f6d-3f7b-4ad2-982e-f25b38b57c16","HeroImageUrl":"https://blobs-infiniteugc.svc.halowaypoint.com/ugcstorage/ugcgamevariant/18ac247d-7f86-4a59-9b47-9e74a6384ac2/13729f6d-3f7b-4ad2-982e-f25b38b57c16/images/hero.png","ThumbnailImageUrl":"https://blobs-infiniteugc.svc.halowaypoint.com/ugcstorage/ugcgamevariant/18ac247d-7f86-4a59-9b47-9e74a6384ac2/13729f6d-3f7b-4ad2-982e-f25b38b57c16/images/thumbnail.png","Description":"BR loadouts, Friendly-Fire enabled, Motion Tracker disabled. Only one team has a flag. Teams alternate attacking and defending the flag."}
+{
+  "Name": "Ranked:One Flag CTF",
+  "Version": "13729f6d-3f7b-4ad2-982e-f25b38b57c16",
+  "HeroImageUrl": "https://blobs-infiniteugc.svc.halowaypoint.com/ugcstorage/ugcgamevariant/18ac247d-7f86-4a59-9b47-9e74a6384ac2/13729f6d-3f7b-4ad2-982e-f25b38b57c16/images/hero.png",
+  "ThumbnailImageUrl": "https://blobs-infiniteugc.svc.halowaypoint.com/ugcstorage/ugcgamevariant/18ac247d-7f86-4a59-9b47-9e74a6384ac2/13729f6d-3f7b-4ad2-982e-f25b38b57c16/images/thumbnail.png",
+  "Description": "BR loadouts, Friendly-Fire enabled, Motion Tracker disabled. Only one team has a flag. Teams alternate attacking and defending the flag."
+}

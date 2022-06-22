@@ -1,1 +1,7 @@
-{"Name":"Fiesta:Attrition","Version":"4f3c139e-074c-4683-a0c7-35a50ff99a21","HeroImageUrl":"https://blobs-infiniteugc.svc.halowaypoint.com/ugcstorage/ugcgamevariant/9dc6364b-feeb-4a61-a0a2-5430219aee68/4f3c139e-074c-4683-a0c7-35a50ff99a21/images/hero.png","ThumbnailImageUrl":"https://blobs-infiniteugc.svc.halowaypoint.com/ugcstorage/ugcgamevariant/9dc6364b-feeb-4a61-a0a2-5430219aee68/4f3c139e-074c-4683-a0c7-35a50ff99a21/images/thumbnail.png","Description":"Spawn with random loadouts. Deplete the enemy\u2019s respawns and then wipe them out."}
+{
+  "Name": "Fiesta:Attrition",
+  "Version": "4f3c139e-074c-4683-a0c7-35a50ff99a21",
+  "HeroImageUrl": "https://blobs-infiniteugc.svc.halowaypoint.com/ugcstorage/ugcgamevariant/9dc6364b-feeb-4a61-a0a2-5430219aee68/4f3c139e-074c-4683-a0c7-35a50ff99a21/images/hero.png",
+  "ThumbnailImageUrl": "https://blobs-infiniteugc.svc.halowaypoint.com/ugcstorage/ugcgamevariant/9dc6364b-feeb-4a61-a0a2-5430219aee68/4f3c139e-074c-4683-a0c7-35a50ff99a21/images/thumbnail.png",
+  "Description": "Spawn with random loadouts. Deplete the enemy\u2019s respawns and then wipe them out."
+}

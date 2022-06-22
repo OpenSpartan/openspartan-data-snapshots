@@ -1,1 +1,7 @@
-{"Name":"Ranked:Attrition","Version":"72b7ec3c-f8f8-439c-a63f-052ed4a31320","HeroImageUrl":"https://blobs-infiniteugc.svc.halowaypoint.com/ugcstorage/ugcgamevariant/0bc630bf-2ee3-4eae-b272-b68d4ab80be7/72b7ec3c-f8f8-439c-a63f-052ed4a31320/images/hero.png","ThumbnailImageUrl":"https://blobs-infiniteugc.svc.halowaypoint.com/ugcstorage/ugcgamevariant/0bc630bf-2ee3-4eae-b272-b68d4ab80be7/72b7ec3c-f8f8-439c-a63f-052ed4a31320/images/thumbnail.png","Description":"BR loadouts, Friendly-Fire enabled, Motion Tracker disabled. Deplete the enemy\u2019s respawns and then wipe them out."}
+{
+  "Name": "Ranked:Attrition",
+  "Version": "72b7ec3c-f8f8-439c-a63f-052ed4a31320",
+  "HeroImageUrl": "https://blobs-infiniteugc.svc.halowaypoint.com/ugcstorage/ugcgamevariant/0bc630bf-2ee3-4eae-b272-b68d4ab80be7/72b7ec3c-f8f8-439c-a63f-052ed4a31320/images/hero.png",
+  "ThumbnailImageUrl": "https://blobs-infiniteugc.svc.halowaypoint.com/ugcstorage/ugcgamevariant/0bc630bf-2ee3-4eae-b272-b68d4ab80be7/72b7ec3c-f8f8-439c-a63f-052ed4a31320/images/thumbnail.png",
+  "Description": "BR loadouts, Friendly-Fire enabled, Motion Tracker disabled. Deplete the enemy\u2019s respawns and then wipe them out."
+}

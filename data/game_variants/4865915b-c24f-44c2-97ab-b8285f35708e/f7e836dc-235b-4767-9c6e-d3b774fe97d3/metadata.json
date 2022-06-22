@@ -1,1 +1,7 @@
-{"Name":"Fiesta:Oddball","Version":"f7e836dc-235b-4767-9c6e-d3b774fe97d3","HeroImageUrl":"https://blobs-infiniteugc.svc.halowaypoint.com/ugcstorage/ugcgamevariant/4865915b-c24f-44c2-97ab-b8285f35708e/f7e836dc-235b-4767-9c6e-d3b774fe97d3/images/hero.png","ThumbnailImageUrl":"https://blobs-infiniteugc.svc.halowaypoint.com/ugcstorage/ugcgamevariant/4865915b-c24f-44c2-97ab-b8285f35708e/f7e836dc-235b-4767-9c6e-d3b774fe97d3/images/thumbnail.png","Description":"Spawn with random loadouts. Hold the flaming skull."}
+{
+  "Name": "Fiesta:Oddball",
+  "Version": "f7e836dc-235b-4767-9c6e-d3b774fe97d3",
+  "HeroImageUrl": "https://blobs-infiniteugc.svc.halowaypoint.com/ugcstorage/ugcgamevariant/4865915b-c24f-44c2-97ab-b8285f35708e/f7e836dc-235b-4767-9c6e-d3b774fe97d3/images/hero.png",
+  "ThumbnailImageUrl": "https://blobs-infiniteugc.svc.halowaypoint.com/ugcstorage/ugcgamevariant/4865915b-c24f-44c2-97ab-b8285f35708e/f7e836dc-235b-4767-9c6e-d3b774fe97d3/images/thumbnail.png",
+  "Description": "Spawn with random loadouts. Hold the flaming skull."
+}

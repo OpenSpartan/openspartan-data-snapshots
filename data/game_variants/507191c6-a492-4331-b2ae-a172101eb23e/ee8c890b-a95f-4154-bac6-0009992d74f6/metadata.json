@@ -1,1 +1,7 @@
-{"Name":"Ranked:CTF","Version":"ee8c890b-a95f-4154-bac6-0009992d74f6","HeroImageUrl":"https://blobs-infiniteugc.svc.halowaypoint.com/ugcstorage/ugcgamevariant/507191c6-a492-4331-b2ae-a172101eb23e/ee8c890b-a95f-4154-bac6-0009992d74f6/images/hero.png","ThumbnailImageUrl":"https://blobs-infiniteugc.svc.halowaypoint.com/ugcstorage/ugcgamevariant/507191c6-a492-4331-b2ae-a172101eb23e/ee8c890b-a95f-4154-bac6-0009992d74f6/images/thumbnail.png","Description":"BR loadouts, Friendly-Fire enabled, Motion Tracker disabled. Capture the enemy flag while defending your own."}
+{
+  "Name": "Ranked:CTF",
+  "Version": "ee8c890b-a95f-4154-bac6-0009992d74f6",
+  "HeroImageUrl": "https://blobs-infiniteugc.svc.halowaypoint.com/ugcstorage/ugcgamevariant/507191c6-a492-4331-b2ae-a172101eb23e/ee8c890b-a95f-4154-bac6-0009992d74f6/images/hero.png",
+  "ThumbnailImageUrl": "https://blobs-infiniteugc.svc.halowaypoint.com/ugcstorage/ugcgamevariant/507191c6-a492-4331-b2ae-a172101eb23e/ee8c890b-a95f-4154-bac6-0009992d74f6/images/thumbnail.png",
+  "Description": "BR loadouts, Friendly-Fire enabled, Motion Tracker disabled. Capture the enemy flag while defending your own."
+}

@@ -1,1 +1,7 @@
-{"Name":"Fiesta:CTF","Version":"4a661a7c-270f-4178-a62b-856c387508a1","HeroImageUrl":"https://blobs-infiniteugc.svc.halowaypoint.com/ugcstorage/ugcgamevariant/80b6332b-b6df-46d3-9b19-eca99c4fc0a9/4a661a7c-270f-4178-a62b-856c387508a1/images/hero.png","ThumbnailImageUrl":"https://blobs-infiniteugc.svc.halowaypoint.com/ugcstorage/ugcgamevariant/80b6332b-b6df-46d3-9b19-eca99c4fc0a9/4a661a7c-270f-4178-a62b-856c387508a1/images/thumbnail.png","Description":"Spawn with random loadouts. Capture the enemy flag while defending your own."}
+{
+  "Name": "Fiesta:CTF",
+  "Version": "4a661a7c-270f-4178-a62b-856c387508a1",
+  "HeroImageUrl": "https://blobs-infiniteugc.svc.halowaypoint.com/ugcstorage/ugcgamevariant/80b6332b-b6df-46d3-9b19-eca99c4fc0a9/4a661a7c-270f-4178-a62b-856c387508a1/images/hero.png",
+  "ThumbnailImageUrl": "https://blobs-infiniteugc.svc.halowaypoint.com/ugcstorage/ugcgamevariant/80b6332b-b6df-46d3-9b19-eca99c4fc0a9/4a661a7c-270f-4178-a62b-856c387508a1/images/thumbnail.png",
+  "Description": "Spawn with random loadouts. Capture the enemy flag while defending your own."
+}

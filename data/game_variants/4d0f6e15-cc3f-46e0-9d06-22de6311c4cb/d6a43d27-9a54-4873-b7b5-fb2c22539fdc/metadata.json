@@ -1,1 +1,7 @@
-{"Name":"Arena:Attrition","Version":"d6a43d27-9a54-4873-b7b5-fb2c22539fdc","HeroImageUrl":"https://blobs-infiniteugc.svc.halowaypoint.com/ugcstorage/ugcgamevariant/4d0f6e15-cc3f-46e0-9d06-22de6311c4cb/d6a43d27-9a54-4873-b7b5-fb2c22539fdc/images/hero.png","ThumbnailImageUrl":"https://blobs-infiniteugc.svc.halowaypoint.com/ugcstorage/ugcgamevariant/4d0f6e15-cc3f-46e0-9d06-22de6311c4cb/d6a43d27-9a54-4873-b7b5-fb2c22539fdc/images/thumbnail.png","Description":"Deplete the enemy\u2019s respawns and then wipe them out."}
+{
+  "Name": "Arena:Attrition",
+  "Version": "d6a43d27-9a54-4873-b7b5-fb2c22539fdc",
+  "HeroImageUrl": "https://blobs-infiniteugc.svc.halowaypoint.com/ugcstorage/ugcgamevariant/4d0f6e15-cc3f-46e0-9d06-22de6311c4cb/d6a43d27-9a54-4873-b7b5-fb2c22539fdc/images/hero.png",
+  "ThumbnailImageUrl": "https://blobs-infiniteugc.svc.halowaypoint.com/ugcstorage/ugcgamevariant/4d0f6e15-cc3f-46e0-9d06-22de6311c4cb/d6a43d27-9a54-4873-b7b5-fb2c22539fdc/images/thumbnail.png",
+  "Description": "Deplete the enemy\u2019s respawns and then wipe them out."
+}

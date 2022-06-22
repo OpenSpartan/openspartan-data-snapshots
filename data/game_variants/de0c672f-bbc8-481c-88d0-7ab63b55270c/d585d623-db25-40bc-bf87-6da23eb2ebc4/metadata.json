@@ -1,1 +1,7 @@
-{"Name":"Arena:Neutral Flag CTF","Version":"d585d623-db25-40bc-bf87-6da23eb2ebc4","HeroImageUrl":"https://blobs-infiniteugc.svc.halowaypoint.com/ugcstorage/ugcgamevariant/de0c672f-bbc8-481c-88d0-7ab63b55270c/d585d623-db25-40bc-bf87-6da23eb2ebc4/images/hero.png","ThumbnailImageUrl":"https://blobs-infiniteugc.svc.halowaypoint.com/ugcstorage/ugcgamevariant/de0c672f-bbc8-481c-88d0-7ab63b55270c/d585d623-db25-40bc-bf87-6da23eb2ebc4/images/thumbnail.png","Description":"Steal and capture the forsaken flag."}
+{
+  "Name": "Arena:Neutral Flag CTF",
+  "Version": "d585d623-db25-40bc-bf87-6da23eb2ebc4",
+  "HeroImageUrl": "https://blobs-infiniteugc.svc.halowaypoint.com/ugcstorage/ugcgamevariant/de0c672f-bbc8-481c-88d0-7ab63b55270c/d585d623-db25-40bc-bf87-6da23eb2ebc4/images/hero.png",
+  "ThumbnailImageUrl": "https://blobs-infiniteugc.svc.halowaypoint.com/ugcstorage/ugcgamevariant/de0c672f-bbc8-481c-88d0-7ab63b55270c/d585d623-db25-40bc-bf87-6da23eb2ebc4/images/thumbnail.png",
+  "Description": "Steal and capture the forsaken flag."
+}

@@ -1,1 +1,7 @@
-{"Name":"Ranked:Slayer","Version":"9eee25fe-39db-493f-ab0d-d95403df66b8","HeroImageUrl":"https://blobs-infiniteugc.svc.halowaypoint.com/ugcstorage/ugcgamevariant/c2d20d44-8606-4669-b894-afae15b3524f/9eee25fe-39db-493f-ab0d-d95403df66b8/images/hero.png","ThumbnailImageUrl":"https://blobs-infiniteugc.svc.halowaypoint.com/ugcstorage/ugcgamevariant/c2d20d44-8606-4669-b894-afae15b3524f/9eee25fe-39db-493f-ab0d-d95403df66b8/images/thumbnail.png","Description":"BR loadouts, Friendly-Fire enabled, Motion Tracker disabled. Slay the enemy team."}
+{
+  "Name": "Ranked:Slayer",
+  "Version": "9eee25fe-39db-493f-ab0d-d95403df66b8",
+  "HeroImageUrl": "https://blobs-infiniteugc.svc.halowaypoint.com/ugcstorage/ugcgamevariant/c2d20d44-8606-4669-b894-afae15b3524f/9eee25fe-39db-493f-ab0d-d95403df66b8/images/hero.png",
+  "ThumbnailImageUrl": "https://blobs-infiniteugc.svc.halowaypoint.com/ugcstorage/ugcgamevariant/c2d20d44-8606-4669-b894-afae15b3524f/9eee25fe-39db-493f-ab0d-d95403df66b8/images/thumbnail.png",
+  "Description": "BR loadouts, Friendly-Fire enabled, Motion Tracker disabled. Slay the enemy team."
+}
