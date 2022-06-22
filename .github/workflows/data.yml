@@ -1,6 +1,8 @@
 name: "Acquire Halo Infinite Match Data"
 
 on:
+  push:
+  repository_dispatch:
   workflow_dispatch:
   schedule:
   - cron: "0 */2 * * *"
