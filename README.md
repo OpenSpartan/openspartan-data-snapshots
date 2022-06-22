@@ -48,7 +48,7 @@ Every map folder has another (or many, likely in the future) folders representat
 | ![Fiesta - Oddball thumbnail](media/fiesta-oddball-thumbnail.png) | [Fiesta - Oddball](https://github.com/dend/openspartan-data-snapshots/blob/main/data/game_variants/4865915b-c24f-44c2-97ab-b8285f35708e) | 1 |
 | ![Arena - Attrition thumbnail](media/arena-attrition-thumbnail.png) | [Arena - Attrition](https://github.com/dend/openspartan-data-snapshots/blob/main/data/game_variants/4d0f6e15-cc3f-46e0-9d06-22de6311c4cb) | 1 |
 | ![Ranked - Capture The Flag thumbnail](media/ranked-ctf-thumbnail.png) | [Ranked - Capture The Flag](https://github.com/dend/openspartan-data-snapshots/blob/main/data/game_variants/507191c6-a492-4331-b2ae-a172101eb23e) | 1 |
-| ![Tactical Slayer thumbnail](media/ranked-ctf-thumbnail.png) | [Tactical Slayer](https://github.com/dend/openspartan-data-snapshots/blob/main/data/game_variants/54d19aff-b0b4-462a-a8eb-198f3b295dee) | 1 |
+| ![Tactical Slayer thumbnail](media/tactical-slayer-thumbnail.png) | [Tactical Slayer](https://github.com/dend/openspartan-data-snapshots/blob/main/data/game_variants/54d19aff-b0b4-462a-a8eb-198f3b295dee) | 1 |
 
 _Documentation for this section is in progress_
 
