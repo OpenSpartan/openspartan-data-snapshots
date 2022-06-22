@@ -1,6 +1,13 @@
 # OpenSpartan Data Snapshots
 
+[![Acquire Halo Infinite Match Data](https://github.com/dend/openspartan-data-snapshots/actions/workflows/data.yml/badge.svg)](https://github.com/dend/openspartan-data-snapshots/actions/workflows/data.yml)
+
 A once-an-hour updated repository that contains map and game mode stats captured through the Halo Infinite API.
+
+In every folder, as it relates to a particular map or game variant version, you will see two files:
+
+- `metadata.json` - Contains the latest description of the asset for the specified version.
+- `stats.tsv` - a tab-separated file that contains snapshots of stats captured through automated tasks in this repo.
 
 ## Maps
 
@@ -24,3 +31,7 @@ Every map folder has another (or many, likely in the future) folders representat
 ## Game Modes
 
 WIP
+
+## Feedback or questions
+
+Make sure to [open an issue](https://github.com/dend/openspartan-data-snapshots/issues).
