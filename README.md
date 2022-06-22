@@ -40,6 +40,9 @@ Every map folder has another (or many, likely in the future) folders representat
 | ![Arena - Slayer thumbnail](media/arena-slayer-thumbnail.png) | [Arena - Slayer](https://github.com/dend/openspartan-data-snapshots/blob/main/data/game_variants/1e8cd10b-1496-423b-8699-f98f6f5db67e) | 1 |
 | ![Ranked - Strongholds thumbnail](media/ranked-strongholds-thumbnail.png) | [Ranked - Strongholds](https://github.com/dend/openspartan-data-snapshots/blob/main/data/game_variants/22b8a0eb-0d02-4eb3-8f56-5f63fc254f83) | 1 |
 | ![Arena - One Flag Capture The Flag thumbnail](media/arena-one-flag-ctf-thumbnail.png) | [Arena - One Flag Capture The Flag](https://github.com/dend/openspartan-data-snapshots/tree/main/data/game_variants/29a97061-cf32-49c6-80f0-6638f5a9d0bd) | 1 |
+| ![Big Team Battle - Total Control thumbnail](media/btb-total-control-thumbnail.png) | [Big Team Battle - Total Control](https://github.com/dend/openspartan-data-snapshots/tree/main/data/game_variants/34bac2c7-b6d7-4202-b634-1d770e5247a4) | 1 |
+| ![Arena - King of the Hill thumbnail](media/arena-king-of-the-hill-thumbnail.png) | [Arena - King of the Hill](https://github.com/dend/openspartan-data-snapshots/blob/main/data/game_variants/373f3d27-cb4c-4d7b-b6c9-7757de3c1133) | 1 |
+| ![Halo Championship Series - Free-For-All Slayer thumbnail](media/hcs-ffa-slayer-thumbnail.png) | [Halo Championship Series - Free-For-All Slayer](https://github.com/dend/openspartan-data-snapshots/blob/main/data/game_variants/3909ae2f-9f59-498a-ada6-7bca46ef8086) | 1 |
 
 _Documentation for this section is in progress_
 
