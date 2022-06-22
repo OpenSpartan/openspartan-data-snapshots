@@ -43,6 +43,12 @@ Every map folder has another (or many, likely in the future) folders representat
 | ![Big Team Battle - Total Control thumbnail](media/btb-total-control-thumbnail.png) | [Big Team Battle - Total Control](https://github.com/dend/openspartan-data-snapshots/tree/main/data/game_variants/34bac2c7-b6d7-4202-b634-1d770e5247a4) | 1 |
 | ![Arena - King of the Hill thumbnail](media/arena-king-of-the-hill-thumbnail.png) | [Arena - King of the Hill](https://github.com/dend/openspartan-data-snapshots/blob/main/data/game_variants/373f3d27-cb4c-4d7b-b6c9-7757de3c1133) | 1 |
 | ![Halo Championship Series - Free-For-All Slayer thumbnail](media/hcs-ffa-slayer-thumbnail.png) | [Halo Championship Series - Free-For-All Slayer](https://github.com/dend/openspartan-data-snapshots/blob/main/data/game_variants/3909ae2f-9f59-498a-ada6-7bca46ef8086) | 1 |
+| ![Big Team Battle - Stockpile thumbnail](media/btb-stockpile-thumbnail.png) | [Big Team Battle - Stockpile](https://github.com/dend/openspartan-data-snapshots/blob/main/data/game_variants/3d614e5f-0787-405c-844e-e34c7301e750) | 1 |
+| ![Arena - Free-For-All Oddball thumbnail](media/arena-ffa-oddball-thumbnail.png) | [Arena - Free-For-All Oddball](https://github.com/dend/openspartan-data-snapshots/blob/main/data/game_variants/3fcab1bb-e43c-4f7c-bf7a-eb19f0cdb7db) | 1 |
+| ![Fiesta - Oddball thumbnail](media/fiesta-oddball-thumbnail.png) | [Fiesta - Oddball](https://github.com/dend/openspartan-data-snapshots/blob/main/data/game_variants/4865915b-c24f-44c2-97ab-b8285f35708e) | 1 |
+| ![Arena - Attrition thumbnail](media/arena-attrition-thumbnail.png) | [Arena - Attrition](https://github.com/dend/openspartan-data-snapshots/blob/main/data/game_variants/4d0f6e15-cc3f-46e0-9d06-22de6311c4cb) | 1 |
+| ![Ranked - Capture The Flag thumbnail](media/ranked-ctf-thumbnail.png) | [Ranked - Capture The Flag](https://github.com/dend/openspartan-data-snapshots/blob/main/data/game_variants/507191c6-a492-4331-b2ae-a172101eb23e) | 1 |
+| ![Tactical Slayer thumbnail](media/ranked-ctf-thumbnail.png) | [Tactical Slayer](https://github.com/dend/openspartan-data-snapshots/blob/main/data/game_variants/54d19aff-b0b4-462a-a8eb-198f3b295dee) | 1 |
 
 _Documentation for this section is in progress_
 
