@@ -36,7 +36,7 @@ jobs:
     - name: List content in the current folder
       run: ls
     - name: gh auth login
-      run: gh auth login --with-token < $Env:SL_GITHUB_TOKEN
+      run: Write-Output $Env:SL_GITHUB_TOKEN | gh auth login --with-token
     - name: gh secret set env
       run: |
         $repository="dend/openspartan-data-snapshots"
