@@ -13,7 +13,7 @@ In every folder, as it relates to a particular map or game variant version, you 
 
 Every map folder has another (or many, likely in the future) folders representative of different map versions.
 
-| Image | Map | Id | Available Versions |
+| Image | Id | Map Name | Available Versions |
 |:----|:----|:----|:-------------------|
 | ![Deadlock thumbnail](media/deadlock-thumbnail.png)           | `08607bf4-6abe-4a5b-9547-290a6cc1433e` | [Deadlock](https://github.com/dend/openspartan-data-snapshots/tree/main/data/maps/08607bf4-6abe-4a5b-9547-290a6cc1433e) | 1 |
 | ![Bazaar thumbnail](media/bazaar-thumbnail.png)               | `298d5036-cd43-47b3-a4bd-31e127566593` | [Bazaar](https://github.com/dend/openspartan-data-snapshots/tree/main/data/maps/298d5036-cd43-47b3-a4bd-31e127566593) | 1 |
