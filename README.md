@@ -34,6 +34,7 @@ Every map folder has another (or many, likely in the future) folders representat
 |:----|:----|:-------------------|
 | ![Ranked Free-For-All Slayer thumbnail](media/ranked-ffa-slayer-thumbnail.png) | [Ranked Free-For-All Slayer](https://github.com/dend/openspartan-data-snapshots/tree/main/data/game_variants/02f11d91-a43b-4205-9e55-494638949522) | 1 |
 | ![Ranked Attrition thumbnail](media/ranked-attrition-thumbnail.png) | [Ranked Attrition](https://github.com/dend/openspartan-data-snapshots/tree/main/data/game_variants/0bc630bf-2ee3-4eae-b272-b68d4ab80be7) | 1 |
+| ![Firsta Strongholds thumbnail](media/fiesta-strongholds-thumbnail.png)| [Fiesta Strongholds](https://github.com/dend/openspartan-data-snapshots/tree/main/data/game_variants/0f4db632-f836-4c27-845f-c200b5c04df9) | 1 |
 
 _Documentation for this section is in progress_
 
