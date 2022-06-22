@@ -1,1 +1,7 @@
-{"Name":"HCS:FFA Slayer","Version":"893a628a-7619-4758-87da-bc7b07edf34e","HeroImageUrl":"https://blobs-infiniteugc.svc.halowaypoint.com/ugcstorage/ugcgamevariant/3909ae2f-9f59-498a-ada6-7bca46ef8086/893a628a-7619-4758-87da-bc7b07edf34e/images/hero.png","ThumbnailImageUrl":"https://blobs-infiniteugc.svc.halowaypoint.com/ugcstorage/ugcgamevariant/3909ae2f-9f59-498a-ada6-7bca46ef8086/893a628a-7619-4758-87da-bc7b07edf34e/images/thumbnail.png","Description":"Official HCS Free-for-All settings. BR loadouts, Motion Tracker disabled. Slay the enemy."}
+{
+  "Name": "HCS:FFA Slayer",
+  "Version": "893a628a-7619-4758-87da-bc7b07edf34e",
+  "HeroImageUrl": "https://blobs-infiniteugc.svc.halowaypoint.com/ugcstorage/ugcgamevariant/3909ae2f-9f59-498a-ada6-7bca46ef8086/893a628a-7619-4758-87da-bc7b07edf34e/images/hero.png",
+  "ThumbnailImageUrl": "https://blobs-infiniteugc.svc.halowaypoint.com/ugcstorage/ugcgamevariant/3909ae2f-9f59-498a-ada6-7bca46ef8086/893a628a-7619-4758-87da-bc7b07edf34e/images/thumbnail.png",
+  "Description": "Official HCS Free-for-All settings. BR loadouts, Motion Tracker disabled. Slay the enemy."
+}

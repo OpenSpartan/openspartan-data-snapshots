@@ -1,1 +1,7 @@
-{"Name":"BTB:Stockpile","Version":"41e85111-e012-48ab-a128-fac471f544dc","HeroImageUrl":"https://blobs-infiniteugc.svc.halowaypoint.com/ugcstorage/ugcgamevariant/3d614e5f-0787-405c-844e-e34c7301e750/41e85111-e012-48ab-a128-fac471f544dc/images/hero.png","ThumbnailImageUrl":"https://blobs-infiniteugc.svc.halowaypoint.com/ugcstorage/ugcgamevariant/3d614e5f-0787-405c-844e-e34c7301e750/41e85111-e012-48ab-a128-fac471f544dc/images/thumbnail.png","Description":"Scavenge Power Seeds and deliver them to your base."}
+{
+  "Name": "BTB:Stockpile",
+  "Version": "41e85111-e012-48ab-a128-fac471f544dc",
+  "HeroImageUrl": "https://blobs-infiniteugc.svc.halowaypoint.com/ugcstorage/ugcgamevariant/3d614e5f-0787-405c-844e-e34c7301e750/41e85111-e012-48ab-a128-fac471f544dc/images/hero.png",
+  "ThumbnailImageUrl": "https://blobs-infiniteugc.svc.halowaypoint.com/ugcstorage/ugcgamevariant/3d614e5f-0787-405c-844e-e34c7301e750/41e85111-e012-48ab-a128-fac471f544dc/images/thumbnail.png",
+  "Description": "Scavenge Power Seeds and deliver them to your base."
+}

@@ -1,1 +1,7 @@
-{"Name":"Arena:CTF","Version":"2cb07a58-190d-4fbc-a071-721147faa9e4","HeroImageUrl":"https://blobs-infiniteugc.svc.halowaypoint.com/ugcstorage/ugcgamevariant/8650f7e0-1f82-4d45-a127-32dd54df06e5/2cb07a58-190d-4fbc-a071-721147faa9e4/images/hero.png","ThumbnailImageUrl":"https://blobs-infiniteugc.svc.halowaypoint.com/ugcstorage/ugcgamevariant/8650f7e0-1f82-4d45-a127-32dd54df06e5/2cb07a58-190d-4fbc-a071-721147faa9e4/images/thumbnail.png","Description":"Capture the enemy flag while defending your own."}
+{
+  "Name": "Arena:CTF",
+  "Version": "2cb07a58-190d-4fbc-a071-721147faa9e4",
+  "HeroImageUrl": "https://blobs-infiniteugc.svc.halowaypoint.com/ugcstorage/ugcgamevariant/8650f7e0-1f82-4d45-a127-32dd54df06e5/2cb07a58-190d-4fbc-a071-721147faa9e4/images/hero.png",
+  "ThumbnailImageUrl": "https://blobs-infiniteugc.svc.halowaypoint.com/ugcstorage/ugcgamevariant/8650f7e0-1f82-4d45-a127-32dd54df06e5/2cb07a58-190d-4fbc-a071-721147faa9e4/images/thumbnail.png",
+  "Description": "Capture the enemy flag while defending your own."
+}

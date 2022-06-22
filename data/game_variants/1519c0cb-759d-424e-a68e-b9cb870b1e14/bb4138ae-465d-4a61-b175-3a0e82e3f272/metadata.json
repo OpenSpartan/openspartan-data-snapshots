@@ -1,1 +1,7 @@
-{"Name":"BTB:CTF","Version":"bb4138ae-465d-4a61-b175-3a0e82e3f272","HeroImageUrl":"https://blobs-infiniteugc.svc.halowaypoint.com/ugcstorage/ugcgamevariant/1519c0cb-759d-424e-a68e-b9cb870b1e14/bb4138ae-465d-4a61-b175-3a0e82e3f272/images/hero.png","ThumbnailImageUrl":"https://blobs-infiniteugc.svc.halowaypoint.com/ugcstorage/ugcgamevariant/1519c0cb-759d-424e-a68e-b9cb870b1e14/bb4138ae-465d-4a61-b175-3a0e82e3f272/images/thumbnail.png","Description":"Capture the enemy flag."}
+{
+  "Name": "BTB:CTF",
+  "Version": "bb4138ae-465d-4a61-b175-3a0e82e3f272",
+  "HeroImageUrl": "https://blobs-infiniteugc.svc.halowaypoint.com/ugcstorage/ugcgamevariant/1519c0cb-759d-424e-a68e-b9cb870b1e14/bb4138ae-465d-4a61-b175-3a0e82e3f272/images/hero.png",
+  "ThumbnailImageUrl": "https://blobs-infiniteugc.svc.halowaypoint.com/ugcstorage/ugcgamevariant/1519c0cb-759d-424e-a68e-b9cb870b1e14/bb4138ae-465d-4a61-b175-3a0e82e3f272/images/thumbnail.png",
+  "Description": "Capture the enemy flag."
+}

@@ -1,1 +1,7 @@
-{"Name":"Highpower","Version":"e7b22fbf-c768-43db-8fc7-9a5ac5ccc7d6","HeroImageUrl":"https://blobs-infiniteugc.svc.halowaypoint.com/ugcstorage/map/c494ef7c-d203-42a9-9c0f-b3f576334501/e7b22fbf-c768-43db-8fc7-9a5ac5ccc7d6/images/hero.png","ThumbnailImageUrl":"https://blobs-infiniteugc.svc.halowaypoint.com/ugcstorage/map/c494ef7c-d203-42a9-9c0f-b3f576334501/e7b22fbf-c768-43db-8fc7-9a5ac5ccc7d6/images/thumbnail.png","Description":"High-Power with a high tower."}
+{
+  "Name": "Highpower",
+  "Version": "e7b22fbf-c768-43db-8fc7-9a5ac5ccc7d6",
+  "HeroImageUrl": "https://blobs-infiniteugc.svc.halowaypoint.com/ugcstorage/map/c494ef7c-d203-42a9-9c0f-b3f576334501/e7b22fbf-c768-43db-8fc7-9a5ac5ccc7d6/images/hero.png",
+  "ThumbnailImageUrl": "https://blobs-infiniteugc.svc.halowaypoint.com/ugcstorage/map/c494ef7c-d203-42a9-9c0f-b3f576334501/e7b22fbf-c768-43db-8fc7-9a5ac5ccc7d6/images/thumbnail.png",
+  "Description": "High-Power with a high tower."
+}

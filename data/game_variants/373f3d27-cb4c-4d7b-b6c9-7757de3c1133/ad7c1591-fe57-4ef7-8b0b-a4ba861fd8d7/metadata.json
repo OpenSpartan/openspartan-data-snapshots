@@ -1,1 +1,7 @@
-{"Name":"Arena:King of the Hill","Version":"ad7c1591-fe57-4ef7-8b0b-a4ba861fd8d7","HeroImageUrl":"https://blobs-infiniteugc.svc.halowaypoint.com/ugcstorage/ugcgamevariant/373f3d27-cb4c-4d7b-b6c9-7757de3c1133/ad7c1591-fe57-4ef7-8b0b-a4ba861fd8d7/images/hero.png","ThumbnailImageUrl":"https://blobs-infiniteugc.svc.halowaypoint.com/ugcstorage/ugcgamevariant/373f3d27-cb4c-4d7b-b6c9-7757de3c1133/ad7c1591-fe57-4ef7-8b0b-a4ba861fd8d7/images/thumbnail.png","Description":"Hold the Hill. Hail to the King."}
+{
+  "Name": "Arena:King of the Hill",
+  "Version": "ad7c1591-fe57-4ef7-8b0b-a4ba861fd8d7",
+  "HeroImageUrl": "https://blobs-infiniteugc.svc.halowaypoint.com/ugcstorage/ugcgamevariant/373f3d27-cb4c-4d7b-b6c9-7757de3c1133/ad7c1591-fe57-4ef7-8b0b-a4ba861fd8d7/images/hero.png",
+  "ThumbnailImageUrl": "https://blobs-infiniteugc.svc.halowaypoint.com/ugcstorage/ugcgamevariant/373f3d27-cb4c-4d7b-b6c9-7757de3c1133/ad7c1591-fe57-4ef7-8b0b-a4ba861fd8d7/images/thumbnail.png",
+  "Description": "Hold the Hill. Hail to the King."
+}
