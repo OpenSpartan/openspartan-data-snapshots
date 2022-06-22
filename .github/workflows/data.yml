@@ -11,11 +11,8 @@ on:
       - '**/*.md'
       - '**/*.gitignore'
       - '**/*.gitattributes'
+  repository_dispatch:
   workflow_dispatch:
-    paths-ignore:
-      - '**/*.md'
-      - '**/*.gitignore'
-      - '**/*.gitattributes'
       
 jobs:
   build:
