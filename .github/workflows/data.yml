@@ -1,17 +1,6 @@
-name: "Acquire Data"
+name: "Acquire Halo Infinite Match Data"
 
 on:
-  pull_request:
-    paths-ignore:
-      - '**/*.md'
-      - '**/*.gitignore'
-      - '**/*.gitattributes'
-  push:
-    paths-ignore:
-      - '**/*.md'
-      - '**/*.gitignore'
-      - '**/*.gitattributes'
-  repository_dispatch:
   workflow_dispatch:
   schedule:
   - cron: "0 */2 * * *"
@@ -33,7 +22,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Download StatLink
-      run: Invoke-WebRequest https://github.com/dend/openspartan-statlink/releases/download/v0.0.9/ossl-windows-latest.zip -OutFile ossl-windows-latest.zip
+      run: Invoke-WebRequest https://github.com/dend/openspartan-statlink/releases/download/v0.0.10/ossl-windows-latest.zip -OutFile ossl-windows-latest.zip
     - name: Extract StatLink
       run: Expand-Archive -Path ossl-windows-latest.zip -DestinationPath _statlink
     - name: List content in the current folder
