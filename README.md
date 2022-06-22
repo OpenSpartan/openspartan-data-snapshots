@@ -8,8 +8,8 @@ Every map folder has another (or many, likely in the future) folders representat
 
 | Image | Map | Available Versions |
 |:----|:----|:-------------------|
-| ![Deadlock thumbnail](https://blobs-infiniteugc.svc.halowaypoint.com/ugcstorage/map/08607bf4-6abe-4a5b-9547-290a6cc1433e/0030c1e3-d8b2-4b60-a060-4873d8f4d4a2/images/thumbnail.png) | [Deadlock](https://github.com/dend/openspartan-data-snapshots/tree/main/data/maps/08607bf4-6abe-4a5b-9547-290a6cc1433e) | 1 |
-| | [Bazaar](https://github.com/dend/openspartan-data-snapshots/tree/main/data/maps/298d5036-cd43-47b3-a4bd-31e127566593) | 1 |
+| ![Deadlock thumbnail](media/deadlock-thumbnail.png) | [Deadlock](https://github.com/dend/openspartan-data-snapshots/tree/main/data/maps/08607bf4-6abe-4a5b-9547-290a6cc1433e) | 1 |
+| ![Bazaar thumbnail](media/deadlock-thumbnail.png) | [Bazaar](https://github.com/dend/openspartan-data-snapshots/tree/main/data/maps/298d5036-cd43-47b3-a4bd-31e127566593) | 1 |
 | | [Aquarius](https://github.com/dend/openspartan-data-snapshots/tree/main/data/maps/33c0766c-ef15-48f8-b298-34aba5bff3b4) | 1 |
 | | [Fragmentation](https://github.com/dend/openspartan-data-snapshots/tree/main/data/maps/4f196016-0101-4844-8358-2504f7c44656) | 1 |
 | | [Behemoth](https://github.com/dend/openspartan-data-snapshots/tree/main/data/maps/53136ad9-0fd6-4271-8752-31d114b9561e) | 1 |
