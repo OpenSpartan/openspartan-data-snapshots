@@ -23,6 +23,7 @@ jobs:
       SL_CLIENT_ID: ${{ secrets.SL_CLIENT_ID }}
       SL_CLIENT_SECRET: ${{ secrets.SL_CLIENT_SECRET }}
       SL_REFRESH_TOKEN: ${{ secrets.SL_REFRESH_TOKEN }}
+      SL_ACCESS_TOKEN: ${{ secrets.SL_ACCESS_TOKEN }}
       SL_GITHUB_TOKEN: ${{ secrets.SL_GITHUB_TOKEN }}
       SL_BUILD_ID: ${{ secrets.SL_BUILD_ID }}
       SL_PROJECT_ID: ${{ secrets.SL_PROJECT_ID }}
