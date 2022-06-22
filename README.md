@@ -30,8 +30,16 @@ Every map folder has another (or many, likely in the future) folders representat
 
 ## Game Modes
 
-WIP
+| Image | Game Mode | Available Versions |
+|:----|:----|:-------------------|
+| ![Ranked Free-For-All Slayer Thumbnail](media/ranked-ffa-slayer-thumbnail.png) | [Ranked Free-For-All Slayer](https://github.com/dend/openspartan-data-snapshots/tree/main/data/game_variants/02f11d91-a43b-4205-9e55-494638949522) | 1 |
+
+_Documentation for this section is in progress_
 
 ## Feedback or questions
 
 Make sure to [open an issue](https://github.com/dend/openspartan-data-snapshots/issues).
+
+## Disclaimer
+
+This project is not endorsed or sponsored by Microsoft or 343 Industries. Data presented here is for purely educational and entertainment purposes, and comes with no guarantees, implied or otherwise. The accuracy of the numbers, alongside with detailed formulas used to calculate each on the Halo Infinite backend are unknown.
