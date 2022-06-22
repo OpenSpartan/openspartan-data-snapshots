@@ -35,6 +35,12 @@ jobs:
       run: Expand-Archive -Path ossl-windows-latest.zip -DestinationPath _statlink
     - name: List content in the current folder
       run: ls
+    - name: gh auth login
+      run: gh auth login --with-token < $Env:SL_GITHUB_TOKEN
+    - name: gh secret set env
+      run: |
+        $repository="dend/openspartan-data-snapshots"
+        gh secret set "TEST_SECRET" --env "Production" --body "SomeSecret" --repo $repository
     - name: Refresh token & store it
       run: |
         $userData = curl -H @{"Accept" = "application/vnd.github.v3+json"; "Authorization" = "token $env:SL_GITHUB_TOKEN"} https://api.github.com/users/dend | ConvertFrom-Json
