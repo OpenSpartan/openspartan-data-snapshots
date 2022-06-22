@@ -45,7 +45,7 @@ jobs:
         gh secret set "SL_REFRESH_TOKEN" --env "Production" --body $data.RefreshToken --repo $repository
     - name: Get data
       run: |
-        . ${{ github.workspace }}\_statlink\finalbuild-windows-latest\OpenSpartan.StatLink.exe getstats --auth-token $Env:SL_ACCESS_TOKEN --build-id $Env:SL_BUILD_ID --project-id $Env:SL_PROJECT_ID --out "data"
+        . ${{ github.workspace }}\_statlink\finalbuild-windows-latest\OpenSpartan.StatLink.exe getstats --auth-token "$Env:SL_ACCESS_TOKEN" --build-id "$Env:SL_BUILD_ID" --project-id "$Env:SL_PROJECT_ID" --out "data"
     - name: Commit changes
       run: |
         git add -A -v
