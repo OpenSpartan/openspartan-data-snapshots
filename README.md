@@ -1,6 +1,15 @@
-# OpenSpartan Data Snapshots
+<div align="center">
+	<img alt="Project Logo" src="media/head/logo.png" width="200" height="200" />
+	<h1>🪖 OpenSpartan Data Snapshots</h1>
+	<p>
+		<b>Freshly brewed data on Halo Infinite map and game mode stats.</b>
+	</p>
+	<br>
+	<br>
+	<br>
+</div>
 
-[![Acquire Halo Infinite Match Data](https://github.com/dend/openspartan-data-snapshots/actions/workflows/data.yml/badge.svg)](https://github.com/dend/openspartan-data-snapshots/actions/workflows/data.yml)
+[![Stand With Ukraine](https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/badges/StandWithUkraine.svg)](https://den.dev/ukraine) [![Acquire Halo Infinite Match Data](https://github.com/dend/openspartan-data-snapshots/actions/workflows/data.yml/badge.svg)](https://github.com/dend/openspartan-data-snapshots/actions/workflows/data.yml)
 
 A repository that contains map and game mode stats captured through the Halo Infinite API. The stats for each map and match are pulled every 45 minutes.
 
