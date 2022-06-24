@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     name: Build
     env:
-      WORKING_DIRECTORY: ${{ github.workspace }}
+      SOURCE_FOLDER: ${{ github.workspace }}
 
     steps:
     - uses: actions/checkout@v2
