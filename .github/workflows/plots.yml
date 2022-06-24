@@ -17,7 +17,7 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    - uses: dend/actions/generate-halo-plot@main
+    - uses: dend/actions/generate-halo-plot@master
     - name: Commit changes
       run: |
         git add -A -v
