@@ -9,7 +9,7 @@
 	<br>
 </div>
 
-[![Stand With Ukraine](https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/badges/StandWithUkraine.svg)](https://den.dev/ukraine) [![Acquire Halo Infinite Match Data](https://github.com/dend/openspartan-data-snapshots/actions/workflows/data.yml/badge.svg)](https://github.com/dend/openspartan-data-snapshots/actions/workflows/data.yml)
+[![Stand With Ukraine](https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/badges/StandWithUkraine.svg)](https://den.dev/ukraine) [![Acquire Halo Infinite Match Data](https://github.com/dend/openspartan-data-snapshots/actions/workflows/data.yml/badge.svg)](https://github.com/dend/openspartan-data-snapshots/actions/workflows/data.yml) [![Generate latest data plots](https://github.com/dend/openspartan-data-snapshots/actions/workflows/plots.yml/badge.svg)](https://github.com/dend/openspartan-data-snapshots/actions/workflows/plots.yml)
 
 A repository that contains map and game mode stats captured through the Halo Infinite API. The stats for each map and match are pulled every 45 minutes.
 
