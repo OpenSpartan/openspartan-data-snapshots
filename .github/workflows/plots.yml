@@ -1,0 +1,27 @@
+name: "Generate latest data plots"
+
+on:
+  push:
+  repository_dispatch:
+  workflow_dispatch:
+  schedule:
+  - cron: '0 */4 * * *'
+      
+jobs:
+  build:
+    environment: Production
+    runs-on: ubuntu-latest
+    name: Build
+    env:
+      WORKING_DIRECTORY: ${{ github.workspace }}
+
+    steps:
+    - uses: actions/checkout@v2
+    - uses: dend/actions/generate-halo-plot@main
+    - name: Commit changes
+      run: |
+        git add -A -v
+        git config --global user.name 'Den Delimarsky'
+        git config --global user.email '1389609+dend@users.noreply.github.com'
+        git commit -m "Updating snapshot with plots."
+        git push origin main
