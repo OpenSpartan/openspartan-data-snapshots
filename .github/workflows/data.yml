@@ -45,5 +45,6 @@ jobs:
         git add -A -v
         git config --global user.name 'Den Delimarsky'
         git config --global user.email '1389609+dend@users.noreply.github.com'
+        git pull origin main
         git commit -m "Updating snapshot with data."
         git push origin main
