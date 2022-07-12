@@ -24,7 +24,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Download StatLink
-      run: Invoke-WebRequest https://github.com/dend/openspartan-statlink/releases/download/v0.1.0/ossl-windows-latest.zip -OutFile ossl-windows-latest.zip
+      run: Invoke-WebRequest https://github.com/openspartan/openspartan-statlink/releases/download/v0.1.0/ossl-windows-latest.zip -OutFile ossl-windows-latest.zip
     - name: Extract StatLink
       run: Expand-Archive -Path ossl-windows-latest.zip -DestinationPath _statlink
     - name: List content in the current folder
